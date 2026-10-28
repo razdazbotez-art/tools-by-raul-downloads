@@ -2,20 +2,22 @@
 
 Public installers and signed update information for the Civil 3D toolset.
 
-## Beta 0.8.205
+## Beta 0.8.206
 
-Already using .203 or .204? Run `TBRUPDATE`, select **test**, and click **Check again**. Install .205 and restart Civil 3D. With Advanced Mode enabled, the saved test selection becomes **beta**. Without Advanced Mode, it becomes **approved**.
+Check for Updates now has its own Updates panel at the right-hand end of the Tools by Raul tab.
 
-For a first installation, download .205 for [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.205-beta/TBR-2024-v0.8.205.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.205-beta/TBR-2026-v0.8.205.zip), close Civil 3D, extract the ZIP and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle first. Civil 3D 2026 requires 2026.2.2 or later.
+Already on .205? Leave **beta** selected in `TBRUPDATE`, with Advanced Mode enabled. Automatic checks occur at Civil 3D startup, at most once every 24 hours per Civil 3D year/channel. The updater window appears when a newer release is offered. Use `TBRUPDATE` to check immediately. It never installs without the user's action.
 
-## Update channels
+On .203/.204, select **test** and install .205 first; restart Civil 3D and choose Beta to get .206. Existing test preferences become Beta if Advanced Mode is enabled, otherwise Approved.
 
-**Approved** is available to everyone and remains empty until a regular release is approved. **Beta** is available only while Advanced Mode is enabled. Turning Advanced Mode off returns future checks to Approved without downgrading the installed bundle. The old test feed temporarily offers .205 to migrate existing updater installations.
+For a first installation, download .206 for [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.206-beta/TBR-2024-v0.8.206.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.206-beta/TBR-2026-v0.8.206.zip). Close Civil 3D, extract the ZIP and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle first. Civil 3D 2026 requires 2026.2.2 or later.
 
-Startup checks run at most once per day, or use `TBRUPDATE` anytime. The user chooses when to install. Save work and close every AutoCAD/Civil 3D session when prompted; the updater never closes drawings or kills processes.
+## Channels and installation
 
-Custom checklist/configuration files are preserved. The previous bundle is retained for rollback while Civil 3D is closed. Updates verify a signed feed and package size/hash; no GitHub account or token is needed. The existing Advanced Mode password remains valid.
+**Approved** is available to everyone and remains empty until a regular release is approved. **Beta** requires Advanced Mode. Turning Advanced Mode off switches future checks to Approved without changing the installed version. The last selected eligible channel is remembered. The existing Advanced Mode password remains valid.
 
-These are beta releases. Windows builds, focused checks and package scans passed. Owner testing confirmed updating and checklist section headings on their setup; the new .205 channel/manager interface still needs interactive Civil 3D testing.
+Save work and close all AutoCAD/Civil 3D sessions when prompted. The updater never closes drawings or kills processes. Custom checklist/configuration files are preserved; the previous bundle is retained for rollback. Signed feeds and package size/hash are verified, with no GitHub account or token needed.
+
+These are beta releases. Native Civil 3D layout and automatic notification acceptance remain pending. Owner testing confirmed the earlier updater and checklist section headings on their setup.
 
 All downloads are under [Releases](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases), with package checksum manifests. This repository contains distribution files and update information.
