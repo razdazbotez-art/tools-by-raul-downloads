@@ -2,6 +2,12 @@
 
 Public installers and signed update information for the Civil 3D toolset.
 
+## Beta 0.8.208 — Plugin Data correction
+
+Beta .208 corrects an invalid cast in the Plugin Data scan and related GIS/Base Map cleanup dictionary traversal. Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, install .208 and restart Civil 3D. Open the affected template, return to QC Dashboard → Plugin Data and click **Refresh**. Test purge on a copy of the drawing and check the intended results before submittal. Native Civil 3D scan/purge/save-reopen verification is pending.
+
+Approved .207 and Beta .206 contain the faulty cast. The correction is available in Beta .208 while Approved remains .207.
+
 ## Approved 0.8.207
 
 The Approved channel now offers .207. It has the same plugin behavior as .206, with a higher bundle version for an owner-requested update-alert test.
@@ -12,7 +18,7 @@ For a normal first installation, download the current Approved .207 for [Civil 3
 
 ## Channels and installation
 
-The updater remembers the selected channel. **Approved** is available to everyone. **Beta** requires Advanced Mode; turning Advanced Mode off switches future checks to Approved without changing the installed bundle. Beta currently offers .206. The legacy test feed offers .205 to migrate .203/.204 installations.
+The updater remembers the selected channel. **Approved** is available to everyone. **Beta** requires Advanced Mode; turning Advanced Mode off switches future checks to Approved without changing the installed bundle. Beta currently offers .208. The legacy test feed offers .205 to migrate .203/.204 installations.
 
 An available update opens the updater window; installation needs the user's action. Save work and close every AutoCAD/Civil 3D session when prompted. No drawings are closed and no processes are killed automatically. Custom checklist/configuration files are preserved, with a previous-bundle rollback copy. Signed feeds and package size/hash are verified, without a GitHub account or token. The existing Advanced Mode password remains valid.
 
