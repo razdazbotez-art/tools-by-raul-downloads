@@ -2,22 +2,20 @@
 
 Public installers and signed update information for the Civil 3D toolset.
 
-## Beta 0.8.206
+## Approved 0.8.207
 
-Check for Updates now has its own Updates panel at the right-hand end of the Tools by Raul tab.
+The Approved channel now offers .207. It has the same plugin behavior as .206, with a higher bundle version for an owner-requested update-alert test.
 
-Already on .205? Leave **beta** selected in `TBRUPDATE`, with Advanced Mode enabled. Automatic checks occur at Civil 3D startup, at most once every 24 hours per Civil 3D year/channel. The updater window appears when a newer release is offered. Use `TBRUPDATE` to check immediately. It never installs without the user's action.
+For the alert test, install [0.8.206](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/tag/tools-by-raul-v0.8.206-beta), leave **approved** selected and start Civil 3D after .207 is offered. A fresh installation should announce .207. Advanced Mode is not required. Automatic checks occur at startup, at most once every 24 hours per Civil 3D year/channel; a recent Approved check delays the next automatic check. `TBRUPDATE` checks immediately through the manual route.
 
-On .203/.204, select **test** and install .205 first; restart Civil 3D and choose Beta to get .206. Existing test preferences become Beta if Advanced Mode is enabled, otherwise Approved.
-
-For a first installation, download .206 for [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.206-beta/TBR-2024-v0.8.206.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.206-beta/TBR-2026-v0.8.206.zip). Close Civil 3D, extract the ZIP and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle first. Civil 3D 2026 requires 2026.2.2 or later.
+For a normal first installation, download the current Approved .207 for [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.207-approved/TBR-2024-v0.8.207.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.207-approved/TBR-2026-v0.8.207.zip). Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle first. Civil 3D 2026 requires 2026.2.2 or later.
 
 ## Channels and installation
 
-**Approved** is available to everyone and remains empty until a regular release is approved. **Beta** requires Advanced Mode. Turning Advanced Mode off switches future checks to Approved without changing the installed version. The last selected eligible channel is remembered. The existing Advanced Mode password remains valid.
+The updater remembers the selected channel. **Approved** is available to everyone. **Beta** requires Advanced Mode; turning Advanced Mode off switches future checks to Approved without changing the installed bundle. Beta currently offers .206. The legacy test feed offers .205 to migrate .203/.204 installations.
 
-Save work and close all AutoCAD/Civil 3D sessions when prompted. The updater never closes drawings or kills processes. Custom checklist/configuration files are preserved; the previous bundle is retained for rollback. Signed feeds and package size/hash are verified, with no GitHub account or token needed.
+An available update opens the updater window; installation needs the user's action. Save work and close every AutoCAD/Civil 3D session when prompted. No drawings are closed and no processes are killed automatically. Custom checklist/configuration files are preserved, with a previous-bundle rollback copy. Signed feeds and package size/hash are verified, without a GitHub account or token. The existing Advanced Mode password remains valid.
 
-These are beta releases. Native Civil 3D layout and automatic notification acceptance remain pending. Owner testing confirmed the earlier updater and checklist section headings on their setup.
+Owner testing confirmed earlier updating and checklist section headings on their setup. Native automatic-alert/ribbon and broader Civil 3D acceptance remain pending.
 
-All downloads are under [Releases](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases), with package checksum manifests. This repository contains distribution files and update information.
+All downloads are under [Releases](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases), with checksum manifests. This repository contains distribution files and update information.
