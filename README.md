@@ -1,26 +1,16 @@
 # Tools by Raul downloads
 
-## Beta 0.8.219
+## Approved 0.8.219
 
-GIS Import allows up to **2,000 returned features per service layer**. The former combined 2,000-feature cap is removed. Combined limits of 200,000 vertices and 64 MiB response data remain. Known service and local data-size refusals give smaller-area guidance before changing existing GIS output.
+GIS Import allows up to **2,000 returned features per service layer**, removing the former combined 2,000-feature cap. Combined limits remain 200,000 vertices and 64 MiB of response data. Known service and local size refusals show smaller-area guidance before changing existing GIS output.
 
-This Beta also includes Manual Coverage's installed-MapGuide compatibility correction from 0.8.218. Strict coordinate validation remains in place.
+Manual Coverage now checks compatible installed MapGuide coordinate methods instead of requiring one exact Civil 3D update version. The owner reports that GIS Import and Manual Coverage both work, including a GIS import of over 4,000 features, on their setup.
 
-Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, then install and restart Civil 3D. Test your usual Storm/Sewer import across multiple layers and retry Project CS > Files > Manual Coverage on the updated Civil 3D 2024 installation. Native performance and updated-library export/geographic accuracy remain to be checked.
+Run `TBRUPDATE`, select **approved**, click **Check again**, then install and restart Civil 3D. Existing 0.8.219 Beta users already have the same files and do not need to reinstall; select Approved for future updates.
 
-For a first Beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2024-v0.8.219.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2026-v0.8.219.zip). Approved remains 0.8.217.
+For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2024-v0.8.219.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2026-v0.8.219.zip). The original tag is retained so existing links keep working. Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle before installation. Civil 3D 2026 requires 2026.2.2 or later.
 
-## Approved 0.8.217
-
-GIS Import now refreshes newly imported objects automatically, shows a short completion message, and gives smaller-area guidance when a GIS service response limit is reached. Pano Import restores regular JPEG location/heading handling, and VC preserves the selection while toggling point-cloud visibility.
-
-Run `TBRUPDATE`, select **approved**, click **Check again**, and install 0.8.217. Close Civil 3D when prompted, then restart. Existing 0.8.217 Beta users already have the same files and do not need to reinstall; select Approved for future updates.
-
-For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.217-beta/TBR-2024-v0.8.217.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.217-beta/TBR-2026-v0.8.217.zip). The original tag is retained so existing download links keep working. Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle before installation. Civil 3D 2026 requires 2026.2.2 or later.
-
-The owner confirmed normal GIS imports, concise output, oversized-area guidance and existing-output preservation, GIS Undo/Redo/save-reopen, Pano photos and VC selection on their setup. This does not claim testing across every Civil 3D version or drawing. The packaged source catalog remains included; default-location catalogs are backed up and replaced only when the packaged catalog changes, while custom locations are untouched.
-
-Beta offers 0.8.219. The legacy test migration feed remains at 0.8.205.
+Beta also offers 0.8.219. The legacy test migration feed remains at 0.8.205. Owner functional acceptance does not establish geographic accuracy against independent survey control or testing across all Civil 3D configurations.
 
 ## Update behavior
 
