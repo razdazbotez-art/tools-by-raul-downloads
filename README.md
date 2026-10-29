@@ -1,12 +1,12 @@
 # Tools by Raul downloads
 
-## Beta 0.8.211
+## Beta 0.8.217
 
-Pano Import restores the earlier JPEG GPS/heading reader for testing previously working photos. VC now uses AutoCAD’s selection-preservation flag when toggling point clouds.
+GIS Import includes the display refresh correction confirmed in typical-size imports. Routine diagnostic output is now hidden; successful imports show a short object count. If an area exceeds a GIS service response limit, the message asks you to select a smaller area and confirms that existing GIS objects were left unchanged.
 
-Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, and install 0.8.211. Close Civil 3D when prompted, then restart. Retest ordinary photos’ locations/headings and 360 imports, then try VC with objects selected and Auto Visual Style on/off.
+Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, and install 0.8.217. Close Civil 3D when prompted, then restart. Test a typical GIS import and the shorter command-line messages.
 
-For a first beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.211-beta/TBR-2024-v0.8.211.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.211-beta/TBR-2026-v0.8.211.zip). Native photo-placement and selection behavior remain under test. Approved stays at 0.8.210.
+For a first beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.217-beta/TBR-2024-v0.8.217.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.217-beta/TBR-2026-v0.8.217.zip). The earlier Pano JPEG and VC selection corrections remain included. Final interactive testing of this packaged version remains pending. Approved stays at 0.8.210.
 
 ## Approved 0.8.210
 
