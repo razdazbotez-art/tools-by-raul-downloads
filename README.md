@@ -1,12 +1,14 @@
 # Tools by Raul downloads
 
-## Beta 0.8.218
+## Beta 0.8.219
 
-Manual Coverage (PCSDWGCOVERAGE) now checks the installed MapGuide coordinate methods instead of requiring one Civil 3D update version. Strict coordinate validation and warning rejection remain in place.
+GIS Import allows up to **2,000 returned features per service layer**. The former combined 2,000-feature cap is removed. Combined limits of 200,000 vertices and 64 MiB response data remain. Known service and local data-size refusals give smaller-area guidance before changing existing GIS output.
 
-Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, then install and restart Civil 3D. Open Project CS > Files > Manual Coverage and retry the polygon/point export on the updated Civil 3D 2024 installation. Native export and geographic accuracy on that installation remain to be checked.
+This Beta also includes Manual Coverage's installed-MapGuide compatibility correction from 0.8.218. Strict coordinate validation remains in place.
 
-For a first Beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.218-beta/TBR-2024-v0.8.218.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.218-beta/TBR-2026-v0.8.218.zip). Approved remains 0.8.217.
+Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, then install and restart Civil 3D. Test your usual Storm/Sewer import across multiple layers and retry Project CS > Files > Manual Coverage on the updated Civil 3D 2024 installation. Native performance and updated-library export/geographic accuracy remain to be checked.
+
+For a first Beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2024-v0.8.219.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2026-v0.8.219.zip). Approved remains 0.8.217.
 
 ## Approved 0.8.217
 
@@ -18,7 +20,7 @@ For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/too
 
 The owner confirmed normal GIS imports, concise output, oversized-area guidance and existing-output preservation, GIS Undo/Redo/save-reopen, Pano photos and VC selection on their setup. This does not claim testing across every Civil 3D version or drawing. The packaged source catalog remains included; default-location catalogs are backed up and replaced only when the packaged catalog changes, while custom locations are untouched.
 
-Beta offers 0.8.218. The legacy test migration feed remains at 0.8.205.
+Beta offers 0.8.219. The legacy test migration feed remains at 0.8.205.
 
 ## Update behavior
 
