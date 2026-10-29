@@ -1,5 +1,13 @@
 # Tools by Raul downloads
 
+## Beta 0.8.218
+
+Manual Coverage (PCSDWGCOVERAGE) now checks the installed MapGuide coordinate methods instead of requiring one Civil 3D update version. Strict coordinate validation and warning rejection remain in place.
+
+Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, then install and restart Civil 3D. Open Project CS > Files > Manual Coverage and retry the polygon/point export on the updated Civil 3D 2024 installation. Native export and geographic accuracy on that installation remain to be checked.
+
+For a first Beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.218-beta/TBR-2024-v0.8.218.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.218-beta/TBR-2026-v0.8.218.zip). Approved remains 0.8.217.
+
 ## Approved 0.8.217
 
 GIS Import now refreshes newly imported objects automatically, shows a short completion message, and gives smaller-area guidance when a GIS service response limit is reached. Pano Import restores regular JPEG location/heading handling, and VC preserves the selection while toggling point-cloud visibility.
@@ -10,7 +18,7 @@ For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/too
 
 The owner confirmed normal GIS imports, concise output, oversized-area guidance and existing-output preservation, GIS Undo/Redo/save-reopen, Pano photos and VC selection on their setup. This does not claim testing across every Civil 3D version or drawing. The packaged source catalog remains included; default-location catalogs are backed up and replaced only when the packaged catalog changes, while custom locations are untouched.
 
-Beta also offers 0.8.217. The legacy test migration feed remains at 0.8.205.
+Beta offers 0.8.218. The legacy test migration feed remains at 0.8.205.
 
 ## Update behavior
 
