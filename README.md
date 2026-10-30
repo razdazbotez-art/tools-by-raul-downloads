@@ -1,5 +1,13 @@
 # Tools by Raul downloads
 
+## Beta 0.8.220
+
+Review Import and Review Export have been removed from the ribbon and command line, together with their separate calibration utility. Shared QC Issues, checklists, reports and existing drawing-data/purge support are preserved. Existing review-import geometry and external calibration files are not erased or migrated.
+
+Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, then install and restart Civil 3D. Check that the removed commands/buttons are absent and exercise your usual QC/checklist/report workflow. Native drawing/Undo acceptance remains to be checked.
+
+For a first Beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.220-beta/TBR-2024-v0.8.220.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.220-beta/TBR-2026-v0.8.220.zip). Approved remains 0.8.219.
+
 ## Approved 0.8.219
 
 GIS Import allows up to **2,000 returned features per service layer**, removing the former combined 2,000-feature cap. Combined limits remain 200,000 vertices and 64 MiB of response data. Known service and local size refusals show smaller-area guidance before changing existing GIS output.
