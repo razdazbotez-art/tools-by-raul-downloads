@@ -1,14 +1,16 @@
 # Tools by Raul downloads
 
-## Beta 0.8.221
+## Approved 0.8.231
 
-QC Object and Annotation review now keep queued selections tied to their drawing. North Reference ties picks, delayed comparisons and previews to the originating drawing and requires new picks after changing drawings. Point Cloud Cropping Tools restores the optional `VVC` alias for the existing `VC` visibility action; its View shortcut setting defaults off. Quiet QC startup diagnostics are also included. Existing startup cropping policy is unchanged, and Review Import/Export remains removed.
+The existing 0.8.231 Beta files are promoted unchanged to Approved. Legend block labels omit the prefix through the first ASCII dash; Pano plugin open refreshes the current local viewer URL and registers the saved JPG/JPEG image. Accepted drawing scales, longer line samples and VVC-only Point Cloud behavior remain included.
 
-Enable Advanced Mode, run `TBRUPDATE`, select **beta**, click **Check again**, then install and restart Civil 3D. Please test QC review with two drawings, North Reference picks/comparisons while changing drawings, and the optional VVC shortcut. Native drawing/Undo/save-reopen acceptance remains pending.
+Run `TBRUPDATE`, select **approved**, click **Check again**, then install and fully close/restart Civil 3D. Approved does not require Advanced Mode. Existing 0.8.231 Beta users already have these exact files and are not offered an equal-version reinstall; select Approved for future checks.
 
-For a first Beta installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.221-beta/TBR-2024-v0.8.221.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.221-beta/TBR-2026-v0.8.221.zip). Approved remains 0.8.219.
+For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.231-beta/TBR-2024-v0.8.231.zip) or [Civil 3D 2026.2.2 or later](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.231-beta/TBR-2026-v0.8.231.zip). The existing tag and five asset files are retained. Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`; follow the existing bundle's installation notes.
 
-## Approved 0.8.219
+Beta also remains 0.8.231; its signed feed is unchanged, and the legacy test migration feed remains 0.8.205. The unchanged OWNER-TEST.md asset is the original Beta test guide. This channel promotion does not establish new native CAD, shared-folder access, dynamic-block, Undo/save-reopen or incident-cure evidence.
+
+## Previous Approved 0.8.219 (retained history)
 
 GIS Import allows up to **2,000 returned features per service layer**, removing the former combined 2,000-feature cap. Combined limits remain 200,000 vertices and 64 MiB of response data. Known service and local size refusals show smaller-area guidance before changing existing GIS output.
 
@@ -18,7 +20,7 @@ Run `TBRUPDATE`, select **approved**, click **Check again**, then install and re
 
 For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2024-v0.8.219.zip) or [Civil 3D 2026](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.219-beta/TBR-2026-v0.8.219.zip). The original tag is retained so existing links keep working. Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`. Remove the old standalone Detail Enlargement bundle before installation. Civil 3D 2026 requires 2026.2.2 or later.
 
-Beta now offers 0.8.221. The legacy test migration feed remains at 0.8.205. Owner functional acceptance does not establish geographic accuracy against independent survey control or testing across all Civil 3D configurations.
+The legacy test migration feed remains at 0.8.205. Owner functional acceptance does not establish geographic accuracy against independent survey control or testing across all Civil 3D configurations.
 
 ## Update behavior
 
