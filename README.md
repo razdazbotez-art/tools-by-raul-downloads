@@ -8,7 +8,7 @@ Run `TBRUPDATE`, select **approved**, click **Check again**, then install and fu
 
 For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.231-beta/TBR-2024-v0.8.231.zip) or [Civil 3D 2026.2.2 or later](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.231-beta/TBR-2026-v0.8.231.zip). The existing tag and five asset files are retained. Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`; follow the existing bundle's installation notes.
 
-Beta also remains 0.8.231; its signed feed is unchanged, and the legacy test migration feed remains 0.8.205. The unchanged OWNER-TEST.md asset is the original Beta test guide. This channel promotion does not establish new native CAD, shared-folder access, dynamic-block, Undo/save-reopen or incident-cure evidence.
+Beta 0.8.232 is a separate Submittal Prep sidecar test: actual preparation results and completion times are retained internally across reopening without tracking metadata in the DWG. Beta requires the existing Advanced Mode opt-in. Approved remains the unchanged 0.8.231 files; the legacy test migration feed remains 0.8.205. See the Beta232 OWNER-TEST.md guide for the private-copy test and internal-record exclusion rules. The unchanged OWNER-TEST.md asset is the original Beta test guide. This channel promotion does not establish new native CAD, shared-folder access, dynamic-block, Undo/save-reopen or incident-cure evidence.
 
 ## Previous Approved 0.8.219 (retained history)
 
