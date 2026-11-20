@@ -8,7 +8,9 @@ Run `TBRUPDATE`, select **approved**, click **Check again**, then install and fu
 
 For a first installation: [Civil 3D 2024](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.231-beta/TBR-2024-v0.8.231.zip) or [Civil 3D 2026.2.2 or later](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases/download/tools-by-raul-v0.8.231-beta/TBR-2026-v0.8.231.zip). The existing tag and five asset files are retained. Close Civil 3D, extract and run `Install-ToolsByRaulBundle.cmd`; follow the existing bundle's installation notes.
 
-Beta 0.8.233 tests Submittal Prep Purge Styles completion tracking and intentional repeated passes. Each owned native invocation requires a successful observed lifecycle; cancelled, failed or unconfirmed runs remain nonpass. Internal sidecar receipts remain excluded from drawing submissions. Beta requires the existing Advanced Mode opt-in; use the Beta233 OWNER-TEST.md guide on a private copy. Approved remains unchanged0.8.231 and legacy Test remains0.8.205. Native CAD scheduler, dialogs, event behavior and incident cure are not established by source/package qualification.
+Beta 0.8.234 tests the polished QC command ribbon and complete dockable QC Dashboard, retaining the reviewer/editor/backchecker workflow. Use the existing Advanced Mode Beta opt-in and the Beta234 OWNER-TEST.md guide on disposable drawing copies. Native appearance, docking, focus and workflow persistence require actual owner observation; source/package qualification is not that proof. Approved remains unchanged0.8.231 and legacy Test remains0.8.205.
+
+Previous Beta233 retained Submittal Prep Purge Styles completion tracking and intentional repeated passes; its original release assets and evidence remain available. Native scheduler/dialog incident cure is not inferred by this QC release.
 
 ## Previous Approved 0.8.219 (retained history)
 
@@ -26,4 +28,4 @@ The legacy test migration feed remains at 0.8.205. Owner functional acceptance d
 
 The updater remembers the selected channel. Beta requires Advanced Mode; disabling it switches future checks to Approved without changing the installed bundle. Automatic checks run at Civil 3D startup, at most once every 24 hours per year/channel. Manual Check again bypasses that interval. Installation requires user action; the updater waits for every AutoCAD/Civil 3D session to close. Custom checklists and configuration are preserved, with rollback available. Signed feeds and package size/hash are verified without a GitHub account or token.
 
-Both Windows builds, package checks and focused managed compatibility checks passed. Independent coordinate-control testing and coverage of other Civil 3D/MapGuide configurations remain pending. All downloads and checksum manifests are under [Releases](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases).
+See each release for its exact build, package and managed-check evidence and remaining native limits. Independent coordinate-control testing and coverage of other Civil 3D/MapGuide configurations remain pending. All downloads and checksum manifests are under [Releases](https://github.com/razdazbotez-art/tools-by-raul-downloads/releases).
